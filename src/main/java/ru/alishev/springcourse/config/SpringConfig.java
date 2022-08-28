@@ -21,9 +21,13 @@ import org.thymeleaf.spring5.SpringTemplateEngine;
 import org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver;
 import org.thymeleaf.spring5.view.ThymeleafViewResolver;
 
+
 import javax.sql.DataSource;
 import java.util.Properties;
 
+/**
+ * @author Neil Alishev
+ */
 @Configuration
 @ComponentScan("ru.alishev.springcourse")
 @PropertySource("classpath:hibernate.properties")

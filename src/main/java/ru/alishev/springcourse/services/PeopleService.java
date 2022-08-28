@@ -23,8 +23,8 @@ public class PeopleService {
     }
 
     public Person findOne(int id){
-        Optional<Person> findperson = peopleRepository.findById(id);
-        return findperson.orElse(null);
+        Optional<Person> findPerson = peopleRepository.findById(id);
+        return findPerson.orElse(null);
     }
 
     @Transactional
